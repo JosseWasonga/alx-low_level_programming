@@ -1,13 +1,13 @@
 int "main.h"
 
-int x;
-int y;
+int a;
+int b;
 
 int main()
 {
-	int mul(int x, int y)
+	int mul(int a, int b)
 	{
-		printf("x * y");
+		printf("a * b");
 	}
 
 	return 0;
