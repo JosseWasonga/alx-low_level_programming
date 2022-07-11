@@ -9,11 +9,11 @@
  * Return: 0.
  */
 
-int _strlen(char *s)
+int _strlen(char *c)
 {
 	int i = 0;
 
-	while (s[i] != 0)
+	while (c[i] != 0)
 	{
 		i++;
 	}
