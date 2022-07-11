@@ -4,17 +4,17 @@
 /**
  * print_array - print an array.
  * @a: the array to print.
- * @l: array's length.
+ * @n: array's length.
  */
 
-void print_array(int *a, int l)
+void print_array(int *a, int n)
 {
 	int i;
 
-	for (i = 0; i < l; i++)
+	for (i = 0; i < n; i++)
 	{
 		printf("%d", a[i]);
-		if (i < l - 1)
+		if (i < n - 1)
 		{
 			printf(",");
 		}
