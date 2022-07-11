@@ -3,15 +3,15 @@
 /**
  * rev_string - reverse string.
  *
- * @c: the string to be reversed.
+ * @s: the string to be reversed.
  */
 
-void rev_string(char *c)
+void rev_string(char *s)
 {
 	int length, j, i;
 	char v1, v2;
 
-	for (length = 0; c[length] != '\0'; length++)
+	for (length = 0; s[length] != '\0'; length++)
 	{
 	}
 
@@ -20,10 +20,10 @@ void rev_string(char *c)
 
 	while (j > i)
 	{
-		v1 = c[i];
-		v2 = c[j];
-		c[i] = v2;
-		c[j] = v1;
+		v1 = s[i];
+		v2 = s[j];
+		s[i] = v2;
+		s[j] = v1;
 		j--;
 		i++;
 	}
