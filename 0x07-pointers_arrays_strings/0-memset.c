@@ -1,24 +1,20 @@
 #include "main.h"
+#include <string.h>
 
 /**
- * *_memset - main function.
- * @s: Pointer to the buffer.
- * @b: The constant byte.
- * @n: Size of buffer to fill.
- *
- * Description: This function fills memory with a constant byte.
- *
- * Return: A pointer to the memory area s.
+ * _memset -> this memory set function
+ * @s: string
+ * @b: a charcter
+ * @n: an integer
+ * Return: a string
  */
-
-char *_memset(char *s, char b, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	unsigned int i = 0;
+unsigned int a;
 
-	while (i < n)
-	{
-		s[i] = b;
-		i++;
-	}
-	return (s);
+for (a = 0; a < n; a++)
+{
+	s[a] = b;
+}
+return (s);
 }
